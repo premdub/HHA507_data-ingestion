@@ -4,7 +4,7 @@ import requests # import requests for web requests
 from termios import TAB1, TAB2
 import xlrd # import xlrd for excel files, tab names
 ##This is command so i can read xl file
-df = pd.read_excel('C:\Users\premd\OneDrive\Desktop\Python Projects\HHA507_data ingestion\assignment data.xlsx')
+df = pd.read_excel('data\\assignment data.xlsx')
 df
 
 ### Section 1
