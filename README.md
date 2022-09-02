@@ -9,7 +9,7 @@ If you run into any errors that you can't solve, please take screen shots of tho
 Deliverables: 
  
 - Section 1: Find or create 1 excel (.xls) file that contains at least two tabs. Bring in the first tab as a data frame; label that dataset as ‘tab1’, and a second data frame that represents the 2nd tab of the excel file, name this 'tab2'   
-            Resource: creating via your local computer, Kaggle (https://www.kaggle.com/datasets), healthdata.gov, etc.... 
+ Resource: creating via your local computer, Kaggle (https://www.kaggle.com/datasets), healthdata.gov, etc.... 
 
 - Section 2: Find 1 open source json API via CMS, and bring it in using the 'requests' package ; call the dataset ‘apiDataset’ 
 

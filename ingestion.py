@@ -4,18 +4,18 @@ import requests # import requests for web requests
 from termios import TAB1, TAB2
 import xlrd # import xlrd for excel files, tab names
 ##This is command so i can read xl file
-df = pd.read_excel('C:\Users\premd\OneDrive\Desktop\Python Projects\HHA-Ingestion\DATA\assignment data.xlsx')
+df = pd.read_excel('C:\Users\premd\OneDrive\Desktop\Python Projects\HHA507_data ingestion\assignment data.xlsx')
 df
 
 ### Section 1
 ## this step i will open the excel workook file
-xls = xlrd.open_workbook ('C:\Users\premd\OneDrive\Desktop\Python Projects\HHA-Ingestion\DATA\assignment data.xlsx', on demand=True)
+xls = xlrd.open_workbook ("C:\Users\premd\OneDrive\Desktop\Python Projects\HHA507_data ingestion\assignment data.xlsx", on demand=True)
 xls.sheet_names()
 
 ## Importing excel workbook file
 xls = xlrd.open_workbook('data\\assignment_data.xls', on_demand=True)
-tab1 = pd.read_excel('C:\Users\premd\OneDrive\Desktop\Python Projects\HHA-Ingestion\DATA\assignment data.xlsx', sheet_name="tab1")
-tab2 = pd.read_excel('C:\Users\premd\OneDrive\Desktop\Python Projects\HHA-Ingestion\DATA\assignment data.xlsx'', sheet_name='tab2')
+tab1 = pd.read_excel("C:\Users\premd\OneDrive\Desktop\Python Projects\HHA507_data ingestion\assignment data.xlsx", sheet_name="tab1")
+tab2 = pd.read_excel("C:\Users\premd\OneDrive\Desktop\Python Projects\HHA507_data ingestion\assignment data.xlsx", sheet_name='tab2')
 ## check whether if the tabs were imported/assigned properly to its respective variable
 print(tab1)
 print(tab2)
