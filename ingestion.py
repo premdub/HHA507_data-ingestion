@@ -13,7 +13,7 @@ xls = xlrd.open_workbook ("C:\Users\premd\OneDrive\Desktop\Python Projects\HHA50
 xls.sheet_names()
 
 ## Importing excel workbook file
-xls = xlrd.open_workbook('data\\assignment_data.xls', on_demand=True)
+xls = xlrd.open_workbook('C:\Users\premd\OneDrive\Desktop\Python Projects\HHA507_data ingestion\assignment data.xlsx', on_demand=True)
 tab1 = pd.read_excel("C:\Users\premd\OneDrive\Desktop\Python Projects\HHA507_data ingestion\assignment data.xlsx", sheet_name="tab1")
 tab2 = pd.read_excel("C:\Users\premd\OneDrive\Desktop\Python Projects\HHA507_data ingestion\assignment data.xlsx", sheet_name='tab2')
 ## check whether if the tabs were imported/assigned properly to its respective variable
