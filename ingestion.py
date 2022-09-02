@@ -50,7 +50,7 @@ Bigquery1
 client = bigquery.Clinet.from_service_account_json(r'C:\Users\premd\Downloads\fresh-booster-361204-ef0c0b10b27b.json')
 ### Querying public dataset 2
 ## dataset_2 query only returning first 100 rows
-query_job = client.query(SELECT * FROM `patents-public-data.google_patents_research.publications_201802` LIMIT 100)
+query_job = client.query("SELECT * FROM `patents-public-data.google_patents_research.publications_201802` LIMIT 100")
 
 ## getting results of query 
 results = query_job.result()
