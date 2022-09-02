@@ -59,3 +59,4 @@ Bigquery2 = pd.Dataframe(results.to_dataframe())
 Bigquery2
 
 ## check whether if it was success
+print(bigquery1, '/n', bigquery2)
