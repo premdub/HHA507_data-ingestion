@@ -1,7 +1,7 @@
 import pandas as pd # import pandas for general files
 import json # import json for json files
 import requests # import requests for web requests
-from termios import TAB1, TAB2
+
 import xlrd # import xlrd for excel files, tab names
 ##This is command so i can read xl file
 df = pd.read_excel('data\\assignment data.xlsx')
