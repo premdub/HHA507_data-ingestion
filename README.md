@@ -22,3 +22,4 @@ data = data.json()
 - Section 3 : Brings in 2 open source bigquery datasets; limit your query to get the first 100 rows from each, as either a dataframe or dictionary; please call the first dataset ‘bigquery1’ and the second dataset ‘bigquery2’;  
 Instructions for connecting to bigquery via a client (e.g., python): https://cloud.google.com/bigquery/docs/quickstarts/quickstart-client-libraries 
 Helper youtube video - If you have trouble, I would recommend watching the first couple minutes that walks through how to create the special .json file to connect: https://www.youtube.com/watch?v=iolQX4XJN2A
+****************************
