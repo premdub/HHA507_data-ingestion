@@ -8,8 +8,8 @@ df = pd.read_excel('data\\assignment data.xlsx')
 df
 
 ### Section 1
-## this step i will open the excel workook file
-xls = xlrd.open_workbook ("C:\Users\premd\OneDrive\Desktop\Python Projects\HHA507_data ingestion\assignment data.xlsx", on demand=True)
+## this step i will open the excel workbook file
+xls = xlrd.open_workbook("C:\\Users\\premd\\OneDrive\\Desktop\Pyhon Projects\\HHA507_data ingestion\\assignment data.xlsx", on_demand=True)
 xls.sheet_names()
 
 ## Importing excel workbook file
