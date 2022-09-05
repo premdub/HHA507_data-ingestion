@@ -2,3 +2,4 @@ pandas # for dataframe
 requests # requests
 google-cloud-bigquery # for bigquery 
 xlrd # for excel processing
+google-cloud-bigquery==2.34.3
